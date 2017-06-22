@@ -1,5 +1,5 @@
-- Account: gpuhome
+- Account: kl-gluster-01
   AutoDeploy: true
-  Name: minikube
+  Name: kl-cluster-01
   Provider: kubernetes
-  Src: minikube.yaml
+  Src: kl-cluster-01.yaml
