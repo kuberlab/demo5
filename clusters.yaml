@@ -1,5 +1,5 @@
 - Account: kl-cluster-01
-  AutoDeploy: true
+  AutoDeploy: false
   Name: kl-cluster-01
   Provider: kubernetes
   Src: kl-cluster-01.yaml
