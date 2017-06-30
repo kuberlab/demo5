@@ -1,17 +1,17 @@
-name: "kl-gce-cluster-01"
-kubernetes_version: v1.6.2
-master_type: m3.medium
-master_disk_type: pd-standard
 MasterDiskSize: 20
-zone: us-west1-a
 instances:
-  - name: front
-    count: 2
-    labels:
-      type: test
-    instance_type: n1-standard-2
-    volumes:
-      - boot: true
-        autoDelete: true
-        initializeParams:
-          diskSizeGb: "32"
+- count: 2
+  instance_type: n1-standard-2
+  labels:
+    type: test
+  name: front
+  volumes:
+  - autoDelete: true
+    boot: true
+    initializeParams:
+      diskSizeGb: "32"
+kubernetes_version: v1.6.2
+master_disk_type: pd-standard
+master_type: n1-standard-2
+name: kl-gce-cluster-01
+zone: us-west1-a
