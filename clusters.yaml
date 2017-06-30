@@ -3,3 +3,8 @@
   Name: kl-cluster-01
   Provider: kubernetes
   Src: kl-cluster-01.yaml
+- Account: google
+  AutoDeploy: false
+  Name: kl-gce-cluster-01
+  Provider: kubernetes
+  Src: kl-gce-cluster-01.yaml
