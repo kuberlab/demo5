@@ -6,5 +6,5 @@
 - Account: google
   AutoDeploy: false
   Name: kl-gce-cluster-01
-  Provider: kubernetes
+  Provider: google
   Src: kl-gce-cluster-01.yaml
