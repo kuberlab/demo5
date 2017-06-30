@@ -1,5 +1,18 @@
 master_disk_size: 20
 instances:
+- count: 1
+  instance_type: n1-standard-2
+  labels:
+    type: gpu
+  name: gpu
+  gpu:
+  - acceleratorCount: 1
+    acceleratorType: nvidia-tesla-k80
+  volumes:
+  - autoDelete: true
+    boot: true
+    initializeParams:
+      diskSizeGb: "32"
 - count: 2
   instance_type: n1-standard-2
   labels:
