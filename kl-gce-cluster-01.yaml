@@ -1,4 +1,4 @@
-name: "kl-gce-demo-01"
+name: "kl-gce-cluster-01"
 kubernetes_version: v1.6.2
 master_type: m3.medium
 master_disk_type: pd-standard
