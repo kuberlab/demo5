@@ -1,17 +1,18 @@
-MasterDiskSize: 20
+master_disk_size: 20
 instances:
 - count: 2
   instance_type: n1-standard-2
   labels:
     type: test
-  name: front
+  name: test
   volumes:
   - autoDelete: true
     boot: true
     initializeParams:
       diskSizeGb: "32"
-kubernetes_version: v1.6.2
+kubernetes_version: stable
 master_disk_type: pd-standard
 master_type: n1-standard-2
 name: kl-gce-cluster-01
-zone: us-west1-a
+zone: us-east1-d
+region: us-east1
