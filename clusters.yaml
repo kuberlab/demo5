@@ -3,7 +3,7 @@
   Name: kl-cluster-01
   Provider: kubernetes
   Src: kl-cluster-01.yaml
-- Account: lucid-timing-151005
+- Account: kuberlab-demo
   AutoDeploy: false
   Name: kl-gce-cluster-01
   Provider: google
