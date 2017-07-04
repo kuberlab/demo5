@@ -12,9 +12,9 @@ instances:
     boot: true
     initializeParams:
       diskSizeGb: "64"
-- count: 1
+- count: 0
   gpu:
-  - acceleratorCount: 0
+  - acceleratorCount: 1
     acceleratorType: nvidia-tesla-k80
   instance_type: n1-standard-2
   labels:
