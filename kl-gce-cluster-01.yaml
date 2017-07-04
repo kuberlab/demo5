@@ -24,7 +24,7 @@ instances:
   - autoDelete: true
     boot: true
     initializeParams:
-      diskSizeGb: "16"
+      diskSizeGb: "32"
 - count: 2
   instance_type: n1-standard-2
   labels:
