@@ -12,6 +12,19 @@ instances:
     boot: true
     initializeParams:
       diskSizeGb: "16"
+- count: 1
+  gpu:
+  - acceleratorCount: 1
+    acceleratorType: nvidia-tesla-k80
+  instance_type: n1-standard-2
+  labels:
+    type: gputest
+  name: gputest
+  volumes:
+  - autoDelete: true
+    boot: true
+    initializeParams:
+      diskSizeGb: "16"
 - count: 2
   instance_type: n1-standard-2
   labels:
