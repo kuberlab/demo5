@@ -34,9 +34,9 @@ instances:
   - autoDelete: true
     boot: true
     initializeParams:
-      diskSizeGb: "32"
+      diskSizeGb: "64"
 kubernetes_version: v1.6.6
-master_disk_size: 20
+master_disk_size: 64
 master_disk_type: pd-standard
 master_type: n1-standard-2
 name: kl-gce-cluster-01
