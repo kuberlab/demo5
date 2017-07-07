@@ -11,8 +11,8 @@ instances:
   - autoDelete: true
     boot: true
     initializeParams:
-      diskSizeGb: "64"
-- count: 0
+      diskSizeGb: "32"
+- count: -1
   gpu:
   - acceleratorCount: 1
     acceleratorType: nvidia-tesla-k80
@@ -24,7 +24,7 @@ instances:
   - autoDelete: true
     boot: true
     initializeParams:
-      diskSizeGb: "64"
+      diskSizeGb: "32"
 - count: 2
   instance_type: n1-standard-2
   labels:
@@ -34,9 +34,9 @@ instances:
   - autoDelete: true
     boot: true
     initializeParams:
-      diskSizeGb: "64"
+      diskSizeGb: "32"
 kubernetes_version: v1.6.6
-master_disk_size: 64
+master_disk_size: 32
 master_disk_type: pd-standard
 master_type: n1-standard-2
 name: kl-gce-cluster-01
